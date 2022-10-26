@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,auto));
+}
+.contanier{
+    padding: 30px 55px;
+}
+.one{
+    background-color: hsl(31, 77%, 52%);
+}
+.one input{
+    color:hsl(31, 77%, 52%) ;
+}
+.tow{
+    background-color: hsl(184, 100%, 22%);
+}
+.tow input{
+    color: hsl(184, 100%, 22%);
+}
+.three{
+    background-color: hsl(179, 100%, 13%);
+}
+.three input{
+    color: hsl(179, 100%, 13%);
+}
+.contanier h1{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 20px;
+}
+.contanier p{
+    color:hsl(0, 0%, 95%);
+    margin-top: 40px;
+    margin-bottom: 60px;
+    line-height: 1.8;
+}
+input{
+    padding: 20px 40px;
+    outline: none;
+    border: none;
+    border-radius: 80px;
+}
+input:hover{
+    cursor: pointer;
+}
+@media(max-width:767px){
+    main{
+        width: 340px;
+        height: 100%;
+        margin-top: 20px;
+    }
+}
